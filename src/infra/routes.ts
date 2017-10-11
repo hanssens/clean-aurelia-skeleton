@@ -8,9 +8,9 @@ import { RouteConfig } from 'aurelia-router';
  */
 export class Routes {
     public static maps(): RouteConfig[] {
-        return <RouteConfig[]> [
+        return [
             // home/root
             { route: ['', 'home'], name: 'home', moduleId: './views/home/home', nav: true, title: 'Dashboard' }
-        ];
+        ] as RouteConfig[];
     }
 }

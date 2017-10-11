@@ -1,5 +1,16 @@
 {
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
   "rules": {
-
-  }
+    "class-name": true,
+    "disable-next-line:curly": true,
+    "no-object-literal-type-assertion": true,
+    "quotemark": [true, "single", "avoid-escape"],
+    "trailing-comma": [true, {"multiline": "ignore", "sin gleline": "never"}],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-snake-case"]
+  },
+  "rulesDirectory": []
 }

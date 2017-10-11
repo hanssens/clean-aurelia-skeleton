@@ -6,6 +6,9 @@
     "type": "???",
     "url": "???"
   },
+  "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.ts' ||true"
+  },
   "license": "MIT",
   "dependencies": {
     "aurelia-bootstrapper": "^2.1.1",
@@ -39,7 +42,7 @@
     "minimatch": "^3.0.2",
     "sass-lint": "^1.11.1",
     "through2": "^2.0.1",
-    "tslint": "^3.11.0",
+    "tslint": "^5.7.0",
     "typescript": ">=1.9.0-dev || ^2.0.0",
     "uglify-js": "^3.0.19",
     "vinyl-fs": "^2.4.3"
